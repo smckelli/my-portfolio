@@ -29,7 +29,7 @@ const Nav = () => {
                 <Link to="/project">Projects</Link>
             </li>
             <li>
-                <Link to="/education">Education</Link>
+                <Link to="/resume">Resume</Link>
             </li>
             <li>
                 <Link to="/contact">Contact</Link>
