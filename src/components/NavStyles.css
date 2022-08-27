@@ -12,12 +12,14 @@
 
 /* This puts proper spacing between components on the Navbar */
 .nav-menu li{
-    padding: 1rem
+    padding: 1rem;
+    padding-right: 80px
 }
+
 
 /* The 'a' is the anchor tag for the Link in the Nav.js */
 .nav-menu li a{
-    font-size: 1.2 rem;
+    font-size: 35px;
     font-weight: 500;
 }
 
@@ -27,7 +29,7 @@
 }
 
 /* responsive design */
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 1290px) {
     .nav-menu{
         flex-direction: column;
         justify-content: center;
