@@ -29,7 +29,7 @@
 }
 
 /* responsive design */
-@media screen and (max-width: 1290px) {
+@media screen and (max-width: 1040px) {
     .nav-menu{
         flex-direction: column;
         justify-content: center;
@@ -41,7 +41,7 @@
         top: 0;
         left: -100%;
         z-index: -3;
-        transition: 0.3s;
+        transition: 0.7s;
     }
 
     .nav-menu.active {

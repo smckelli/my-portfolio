@@ -7,7 +7,6 @@ import { FaBars, FaTimes } from "react-icons/fa";
 
 const Nav = () => {
 
-
     const [click, setClick] = useState(false);
     const handleClick = () => setClick(!click);
 
