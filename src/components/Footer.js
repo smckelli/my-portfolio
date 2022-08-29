@@ -2,7 +2,8 @@ import "./FooterStyles.css";
 
 import React from 'react'
 
-import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa"
+import { FaGithub, FaTwitter, FaLinkedin, FaTelegramPlane,
+        FaWhatsapp } from "react-icons/fa"
 
 const Footer = () => {
   return (
@@ -20,6 +21,16 @@ const Footer = () => {
             </a>
             <a href="https://linkedin.com/in/scott-mckellips" target="_blank">
             <FaLinkedin 
+                size={30} 
+                style={{ color: "#fff", margineRight: "2rem" }} />
+            </a>
+            <a href="https://telegram.org" target="_blank">
+            <FaTelegramPlane 
+                size={30} 
+                style={{ color: "#fff", margineRight: "2rem" }} />
+            </a>
+            <a href="https://whatsapp.com" target="_blank">
+            <FaWhatsapp
                 size={30} 
                 style={{ color: "#fff", margineRight: "2rem" }} />
             </a>
