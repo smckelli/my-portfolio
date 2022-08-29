@@ -1,8 +1,13 @@
 import React from 'react'
+import Nav from "../components/Nav";
+import Footer from "../components/Footer";
 
 const Resume = () => {
   return (
-    <div>Resume</div>
+    <div>
+    <Nav />
+    <Footer />
+    </div>
   )
 }
 
