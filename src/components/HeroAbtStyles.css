@@ -1,14 +1,14 @@
-.heropro-img{
+.heroabt-img{
     width: 100%;
     background: rgba(0,0,0,0.5);
     height: 60vh;
     position: relative;
-    Object-fit: cover;
+    object-fit: cover;
 }
 
-.heropro-img::before{
+.heroabt-img::before{
     content:"";
-    background: url("https://images.pexels.com/photos/11142284/pexels-photo-11142284.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background: url("https://images.pexels.com/photos/3576181/pexels-photo-3576181.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load");
     background-size: cover;
     background-position: center top;
     height: 100%;
@@ -28,17 +28,17 @@
     align-items: center;
 }
 
-.heropro-img h1{
+.heroabt-img h1{
     font-size: 2.4rem;
 }
 
-.heropro-img h4{
+.heroabt-img h4{
     font-size: 1.4rem;
     text-align: center;
 }
 
 @media screen and (max-width: 640px) {
-    .heropro-img h1{
+    .heroabt-img h1{
         font-size: 2rem;
     }
 }
