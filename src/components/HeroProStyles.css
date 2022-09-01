@@ -1,4 +1,82 @@
-.heropro-img{
+.mask {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.hero-img {
+    width: 100%;
+    height: 100%;
+    background-size:cover;
+    background-position: center;
+    object-fit: cover; 
+}
+
+.mask::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 0.25;
+}
+
+.hero{
+    height: 100%;
+    width: 100%;
+}
+
+.hero .content{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 28%;
+    text-align: center;
+}
+
+.hero .content h1{
+    font-size: 3.5rem;
+    padding: 0.6rem 0 1.5rem;
+
+}
+.hero .content h4{
+    font-size: 2.5rem;
+    font-weight: 200;
+    margin-bottom: 50px;
+}
+
+.content .btn{
+    margin: 1rem 0.6rem;
+}
+
+@media screen and (max-width: 820px) {
+    .hero .content{
+        top: 50%;
+        left: 50%;
+    }
+
+    .hero .content h1{
+        font-size: 2.5rem;
+    
+    }
+    .hero .content h4{
+        font-size: 2.5rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* .heropro-img{
     width: 100%;
     background: rgba(0,0,0,0.5);
     height: 60vh;
@@ -11,7 +89,7 @@
     background: url("https://images.pexels.com/photos/11142284/pexels-photo-11142284.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-size: cover;
     background-position: center top;
-    height: 100%;
+    height: 155%;
     width: 100%;
     position: absolute;
     top: 0;
@@ -35,7 +113,7 @@
 .heropro-img h4{
     font-size: 1.4rem;
     text-align: center;
-}
+} */
 
 @media screen and (max-width: 640px) {
     .heropro-img h1{
