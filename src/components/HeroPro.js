@@ -1,8 +1,8 @@
 import "./HeroProStyles.css";
 
-import React, { Component } from 'react'
+// import React, { Component } from 'react'
 import HeroImg from "../assets/peace.jpg";
-import { FaArrowDown } from "react-icons/fa";
+// import { FaArrowDown } from "react-icons/fa";
 
 
 
@@ -29,7 +29,7 @@ const HeroPro = () => {
           <div className="content">
                 <h1>Projects</h1>
                 <h4>Some of my most recent work</h4>
-                <FaArrowDown size={30} style={{ color: "#fff" }}/>
+                {/* <FaArrowDown size={30} style={{ color: "#fff" }}/> */}
               
               {/* <div>
                   <Link to="/project"
