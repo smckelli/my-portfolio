@@ -1,5 +1,5 @@
 import project1 from "../assets/project1.png";
-import project2 from "../assets/project2.jpg";
+import project2 from "../assets/project2.png";
 import project3 from "../assets/project3.jpg";
 import project4 from "../assets/project4.png";
 import project5 from "../assets/project5.png";
@@ -8,45 +8,45 @@ import project6 from "../assets/project6.png";
 const ProjectCardData = [
     {
         imgsrc: project1,
-        title: "MERN Stack To Do",
-        text: "This is text.",
-        view: "https://peaceful-eyrie-24338.herokuapp.com/login",
+        title: "'To Do'- MERN Stack",
+        text: "This classic, personalized To Do list is a way to organize your tasks as you create and complete goals throughout your busy day.",
+        view: "https://peaceful-eyrie-24338.herokuapp.com",
         source: "https://github.com/smckelli/todo"
     },
     {
         imgsrc: project2,
-        title: "Project 2",
-        text: "This is text.",
-        view: "https://peaceful-eyrie-24338.herokuapp.com/login",
-        source: "https://github.com/smckelli/todo"
+        title: "streamline- Full stack",
+        text: "With streamline, you can quickly see what's available to watch on the streaming services you use without having to flip between applications.",
+        view: "https://peaceful-earth-43575.herokuapp.com/",
+        source: "https://github.com/smckelli/streamline"
     },
     {
         imgsrc: project3,
-        title: "Project 3",
-        text: "This is text.",
-        view: "https://peaceful-eyrie-24338.herokuapp.com/login",
-        source: "https://github.com/smckelli/todo"
+        title: "Meditation Buddy- Front end",
+        text: "Meditation Buddy is a website designed to provide users with inspirational quotes and calming images.",
+        view: "https://smckelli.github.io/meditation-buddy/",
+        source: "https://github.com/smckelli/meditation-buddy"
     },
     {
         imgsrc: project4,
-        title: "Project 4",
-        text: "This is text.",
-        view: "https://peaceful-eyrie-24338.herokuapp.com/login",
-        source: "https://github.com/smckelli/todo"
+        title: "Weather Dashboard- Server-side APIs",
+        text: "A weather dashboard to display the current weather and 5 day forecast for any city in the United STates and the world.",
+        view: "https://smckelli.github.io/weather-dashboard/",
+        source: "https://github.com/smckelli/weather-dashboard"
     },
     {
         imgsrc: project5,
-        title: "Project 5",
-        text: "This is text.",
-        view: "https://peaceful-eyrie-24338.herokuapp.com/login",
-        source: "https://github.com/smckelli/todo"
+        title: "Note Taker- Express.js",
+        text: "A note-taking application to write and save notes as a way or organize your thoughts and keep track of your tasks.",
+        view: "https://smckelli-note-taker.herokuapp.com/",
+        source: "https://github.com/smckelli/note-taker"
     },
     {
         imgsrc: project6,
-        title: "Project 6",
-        text: "This is text.",
-        view: "https://peaceful-eyrie-24338.herokuapp.com/login",
-        source: "https://github.com/smckelli/todo"
+        title: "Work Day Scheduler- Third-party APIs",
+        text: "This is a calendar application to track any event during each hour of a typical business day between the hours of 0900-1800.",
+        view: "https://smckelli.github.io/scheduler/",
+        source: "https://github.com/smckelli/scheduler"
     }
 ]
 
