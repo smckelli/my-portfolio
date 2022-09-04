@@ -1,15 +1,16 @@
 
 .work-container {
+    text-align: center;
     width: 100%;
     display: flex;
     flex-direction: column;
     flex: 2 auto;
 }
   
-/* .project-heading{
+.pro-heading{
     text-align: center;
     padding: 4rem 0 2rem 0;
-} */
+}
 
 .project-container{
     --gap: 1rem;
@@ -28,11 +29,11 @@
 .project-card{
     background: #1a1919;
     padding: 1.2rem 1 rem;
+    border: 1px solid #f5f1e3;
 }
 
 .project-card img{
     width: 100%;
-
 }
 
 .project-title{
@@ -50,11 +51,14 @@
 .pro-btns{
     display: flex;
     justify-content: space-between;
-    padding: 0.5rem 0;
+    padding-top: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
 
 .pro-btns .btn{
-    padding: 0.5rem 1rem
+    padding: 0.5rem 1.5rem;
+    position: relative;
 }
 
 @media screen and (max-width: 740px) {

@@ -8,7 +8,7 @@ import React from 'react';
 const Work = () => {
   return (
     <div className="work-container">
-        {/* <h1 classname="project-heading">Projects</h1> */}
+        <h1 classname="pro-heading">Projects</h1>
         <div className="project-container">
             {WorkCardData.map((val, ind) => {
                 return(

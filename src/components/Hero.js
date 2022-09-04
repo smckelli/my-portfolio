@@ -4,6 +4,8 @@ import React from 'react';
 
 import HeroImg from "../assets/serenity.jpg";
 import { Link } from "react-router-dom";
+import { FaGithub, FaTwitter, FaLinkedin, FaTelegramPlane,
+  FaWhatsapp } from "react-icons/fa"
 
 const Hero = () => {
   return (
@@ -21,6 +23,11 @@ const Hero = () => {
                 <Link to="/contact"
                 className="btn btn-light">Contact</Link>
             </div>
+            <a href="https://github.com/smckelli" target="_blank">
+            <FaGithub 
+                size={30} 
+                style={{ color: "#CBD0B9", margineRight: "2rem" }} />
+            </a>
         </div>
     </div>
   )
