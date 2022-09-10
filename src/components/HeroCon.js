@@ -10,7 +10,7 @@ const HeroCon = () => {
       <div className="hero">
           <div className="mask">
               <img className="hero-img" 
-              src={HeroImg} alt="Sunrise at the foot of a dock over a peacefully calm lake."/>
+              src={HeroImg} alt="A look down an overgrown creek."/>
           </div>
           <div className="content">
                 <h1>Contact Me</h1>
@@ -24,8 +24,7 @@ const HeroCon = () => {
                   className="btn btn-light">Contact</Link>
               </div> */}
           </div>
-          <div className="content-arrow">
-
+          <div>
           </div>
       </div>
     )

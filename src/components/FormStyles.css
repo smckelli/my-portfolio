@@ -9,7 +9,17 @@ form{
     padding: 4rem 1rem;
     margin: auto;
     max-width: 600px;
+    align-items: center;
 }
+
+form h4{
+    text-decoration: underline;
+}
+
+a{
+    font-size: 2rem;
+}
+
 
 form input, form textarea{
     margin-bottom: 1rem;
