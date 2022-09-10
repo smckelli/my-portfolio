@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.4a328bb0.css",
+    "main.js": "/my-portfolio/static/js/main.66596ceb.js",
+    "static/media/rest.jpg": "/my-portfolio/static/media/rest.0a060d365efec49578e0.jpg",
+    "static/media/serenity.jpg": "/my-portfolio/static/media/serenity.f2ef9d01b838069f3a76.jpg",
+    "static/media/chill.jpg": "/my-portfolio/static/media/chill.f7b33d60ffb2e9b591e6.jpg",
+    "static/media/peace.jpg": "/my-portfolio/static/media/peace.f6351cc79464e17a1fb3.jpg",
+    "static/media/project2.png": "/my-portfolio/static/media/project2.a8b617349f6c2b6060c5.png",
+    "static/media/familysunflowers.jpg": "/my-portfolio/static/media/familysunflowers.44eb60bf36dbaa3b4a78.jpg",
+    "static/media/ScottMcKellips.pdf": "/my-portfolio/static/media/ScottMcKellips.fe344ff5de6659a49921.pdf",
+    "static/media/project3.jpg": "/my-portfolio/static/media/project3.1c1df78786af02ffda39.jpg",
+    "static/media/project6.png": "/my-portfolio/static/media/project6.32572ace8b4cf4abab44.png",
+    "static/media/project4.png": "/my-portfolio/static/media/project4.2bc3dfb961b1ce5839aa.png",
+    "static/media/project1.png": "/my-portfolio/static/media/project1.b293ee1f58e3957b25cf.png",
+    "static/media/project5.png": "/my-portfolio/static/media/project5.b2cde8cbf7eea391b93f.png",
+    "index.html": "/my-portfolio/index.html",
+    "main.4a328bb0.css.map": "/my-portfolio/static/css/main.4a328bb0.css.map",
+    "main.66596ceb.js.map": "/my-portfolio/static/js/main.66596ceb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a328bb0.css",
+    "static/js/main.66596ceb.js"
+  ]
+}
