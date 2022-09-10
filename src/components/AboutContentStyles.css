@@ -23,6 +23,12 @@
     max-width: 700px;
 }
 
+p{
+    margin: 0.3rem 0;
+    padding-bottom: 0.5rem;
+    font-size: 2rem;
+}
+
 .right .img-container{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
