@@ -5,6 +5,7 @@ import React from 'react';
 import HeroImg from "../assets/serenity.jpg";
 import { Link } from "react-router-dom";
 
+
 const Hero = () => {
   return (
     <div className="hero">

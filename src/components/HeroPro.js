@@ -3,21 +3,8 @@ import "./HeroProStyles.css";
 // import React, { Component } from 'react'
 import HeroImg from "../assets/peace.jpg";
 // import { FaArrowDown } from "react-icons/fa";
+import { FaHandPointDown } from "react-icons/fa";
 
-
-
-// class HeroPro extends Component {
-//     render() {
-//         return (
-//             <div className="heropro-img">
-//                 <div className="heading">
-//                     <h1>{this.props.heading}</h1>
-//                     <h4>{this.props.text}</h4>
-//                 </div>
-//             </div>
-//         )
-//     }
-// }
 
 const HeroPro = () => {
     return (
@@ -31,15 +18,12 @@ const HeroPro = () => {
                 <h4>Some of my most recent work</h4>
                 {/* <FaArrowDown size={30} style={{ color: "#fff" }}/> */}
               
-              {/* <div>
-                  <Link to="/project"
-                  className="btn">Projects</Link>
-                  <Link to="/contact"
-                  className="btn btn-light">Contact</Link>
-              </div> */}
-          </div>
-          <div className="content-arrow">
-
+                <div>
+                  <FaHandPointDown
+                  size={60}
+                  style={{ color: "#f5f1e3", marginRight: "1rem", marginLeft: "1rem" }}
+                  />
+                </div>
           </div>
       </div>
     )

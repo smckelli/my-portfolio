@@ -2,25 +2,34 @@ import "./HeroAbtStyles.css";
 
 // import React, { Component } from 'react';
 import HeroImg from "../assets/rest.jpg";
+import { Link } from "react-router-dom";
+import { FaHandPointDown } from "react-icons/fa"
+
+
 
 const HeroAbt = () => {
     return (
       <div className="hero">
           <div className="mask">
               <img className="hero-img" 
-              src={HeroImg} alt="Sunrise at the foot of a dock over a peacefully calm lake."/>
+              src={HeroImg} alt="A tree by the road."/>
           </div>
           <div className="content">
                 <h1>About Me</h1>
                 <h4>Dad. Husband. Developer. Veteran.</h4>
-                {/* <FaArrowDown size={30} style={{ color: "#fff" }}/> */}
+                <div>
+                <Link to="/education"
+                className="btn">Education</Link>
+                <Link to="/pastlives"
+                className="btn btn-light">Past Lives</Link>
+            </div>
               
-              {/* <div>
-                  <Link to="/project"
-                  className="btn">Projects</Link>
-                  <Link to="/contact"
-                  className="btn btn-light">Contact</Link>
-              </div> */}
+                <div>
+                  <FaHandPointDown
+                  size={60}
+                  style={{ color: "#f5f1e3", marginRight: "1rem", marginLeft: "1rem", marginTop: "3rem" }}
+                  />
+                </div>
           </div>
           <div className="content-arrow">
 

@@ -1,5 +1,7 @@
 import React from "react";
 import "./ResumeContentStyles.css";
+import HeroImg from "../assets/focus.jpg";
+import { FaHandPointDown } from "react-icons/fa";
 import Resume from "../assets/McKellips_Resume.pdf";
 import { 
     SiMysql, 
@@ -22,78 +24,96 @@ import {
 
 const ResumeContent = () => {
   return (
-    <div className="resume-container">
-      <h1>Technologies</h1>
-      <div className="icons">
-        <div>
-          <FaGithub
-            size={60}
-            style={{ color: "white", marginRight: "1rem", marginLeft: "1rem" }}
-          />
-          <FaHtml5
-            size={60}
-            style={{ color: "white", marginRight: "1rem", marginLeft: "1rem" }}
-          />
-          <FaCss3Alt
-            size={60}
-            style={{ color: "white", marginRight: "1rem", marginLeft: "1rem" }}
-          />
-          <FaBootstrap
-            size={60}
-            style={{ color: "white", marginRight: "1rem", marginLeft: "1rem" }}
-          />
-        </div>
-        <div>
-          <FaJsSquare
-            size={60}
-            style={{ color: "white", marginRight: "1rem", marginLeft: "1rem" }}
-          />
-          <FaNodeJs
-            size={60}
-            style={{ color: "white", marginRight: "1rem", marginLeft: "1rem" }}
-          />
-          <SiMysql
-            size={60}
-            style={{ color: "white", marginRight: "1rem", marginLeft: "1rem" }}
-          />
-          <SiSequelize
-            size={60}
-            style={{ color: "white", marginRight: "1rem", marginLeft: "1rem" }}
-          />
-        </div>
-        <div>
-          <SiMongodb
-            size={60}
-            style={{ color: "white", marginRight: "1rem", marginLeft: "1rem" }}
-          />
-          <SiReact
-            size={60}
-            style={{ color: "white", marginRight: "1rem", marginLeft: "1rem" }}
-          />
-        <SiInsomnia
-            size={60}
-            style={{ color: "white", marginRight: "1rem", marginLeft: "1rem" }}
-          />
-        <SiApollographql
-            size={60}
-            style={{ color: "white", marginRight: "1rem", marginLeft: "1rem" }}
-          />
-        </div>
-        <div>
-          <SiHeroku
-            size={60}
-            style={{ color: "white", marginRight: "1rem", marginLeft: "1rem" }}
-          />
-          <SiHandlebarsdotjs
-            size={60}
-            style={{ color: "white", marginRight: "1rem", marginLeft: "1rem" }}
-          />
-        </div>
+    <div className="hero">
+      <div className="mask">
+          <img className="hero-img" 
+          src={HeroImg} alt="A look down an overgrown creek."/>
       </div>
-      <p id="view-resume">View my full resume here: </p>
-      <a href={Resume} download className="btn">
-        Click to download
-      </a>
+        <div className="content">
+                  <h1>My Resume</h1>
+                  <h4>Take a look at my skillset</h4>
+                  {/* <FaArrowDown size={30} style={{ color: "#fff" }}/> */}
+                
+                  <div>
+                    <FaHandPointDown
+                    size={60}
+                    style={{ color: "#f5f1e3", marginRight: "1rem", marginLeft: "1rem" }}
+                    />
+                  </div>
+        </div>
+      <div className="resume-container">
+        <h1>Technologies</h1>
+        <div className="icons">
+          <div>
+            <FaGithub
+              size={60}
+              style={{ color: "#f5f1e3", marginRight: "1rem", marginLeft: "1rem" }}
+            />
+            <FaHtml5
+              size={60}
+              style={{ color: "#f5f1e3", marginRight: "1rem", marginLeft: "1rem" }}
+            />
+            <FaCss3Alt
+              size={60}
+              style={{ color: "#f5f1e3", marginRight: "1rem", marginLeft: "1rem" }}
+            />
+            <FaBootstrap
+              size={60}
+              style={{ color: "#f5f1e3", marginRight: "1rem", marginLeft: "1rem" }}
+            />
+          </div>
+          <div>
+            <FaJsSquare
+              size={60}
+              style={{ color: "#f5f1e3", marginRight: "1rem", marginLeft: "1rem" }}
+            />
+            <FaNodeJs
+              size={60}
+              style={{ color: "#f5f1e3", marginRight: "1rem", marginLeft: "1rem" }}
+            />
+            <SiMysql
+              size={60}
+              style={{ color: "#f5f1e3", marginRight: "1rem", marginLeft: "1rem" }}
+            />
+            <SiSequelize
+              size={60}
+              style={{ color: "#f5f1e3", marginRight: "1rem", marginLeft: "1rem" }}
+            />
+          </div>
+          <div>
+            <SiMongodb
+              size={60}
+              style={{ color: "#f5f1e3", marginRight: "1rem", marginLeft: "1rem" }}
+            />
+            <SiReact
+              size={60}
+              style={{ color: "#f5f1e3", marginRight: "1rem", marginLeft: "1rem" }}
+            />
+          <SiInsomnia
+              size={60}
+              style={{ color: "#f5f1e3", marginRight: "1rem", marginLeft: "1rem" }}
+            />
+          <SiApollographql
+              size={60}
+              style={{ color: "#f5f1e3", marginRight: "1rem", marginLeft: "1rem" }}
+            />
+          </div>
+          <div>
+            <SiHeroku
+              size={60}
+              style={{ color: "#f5f1e3", marginRight: "1rem", marginLeft: "1rem" }}
+            />
+            <SiHandlebarsdotjs
+              size={60}
+              style={{ color: "#f5f1e3", marginRight: "1rem", marginLeft: "1rem" }}
+            />
+          </div>
+        </div>
+        <p id="view-resume">View my technical resume here: </p>
+        <a href={Resume} download className="btn">
+          Click to download
+        </a>
+      </div>
     </div>
   );
 };

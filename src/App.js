@@ -5,6 +5,8 @@ import About from "./pages/About"
 import Project from "./pages/Project"
 import Contact from "./pages/Contact"
 import Resume from "./pages/Resume"
+import Education from "./pages/Education"
+import Pastlives from "./pages/Pastlives"
 
 import { Routes, Route } from 'react-router-dom'
 
@@ -17,6 +19,8 @@ function App() {
       <Route path="/about" element={<About />}/>
       <Route path="/contact" element={<Contact />}/>
       <Route path="/resume" element={<Resume />}/>
+      <Route path="/education" element={<Education />}/>
+      <Route path="/pastlives" element={<Pastlives />}/>
     </Routes>
     </>
   );
