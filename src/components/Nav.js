@@ -33,16 +33,16 @@ const Nav = () => {
                 <Link to="/">Home</Link>
             </li>
             <li>
-                <Link to="/about">About Me</Link>
-            </li>
-            <li>
                 <Link to="/project">Projects</Link>
             </li>
             <li>
-                <Link to="/resume">Resume</Link>
+                <Link to="/about">About Me</Link>
             </li>
             <li>
                 <Link to="/contact">Contact</Link>
+            </li>
+            <li>
+                <Link to="/resume">Resume</Link>
             </li>
         </ul>
         <div className="hamburger" onClick=

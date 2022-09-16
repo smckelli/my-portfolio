@@ -3,7 +3,8 @@ import "./HeroAbtStyles.css";
 // import React, { Component } from 'react';
 import HeroImg from "../assets/rest.jpg";
 import { Link } from "react-router-dom";
-import { FaHandPointDown } from "react-icons/fa"
+import { FaHandPointDown, FaUserGraduate } from "react-icons/fa";
+import { GiOuroboros } from "react-icons/gi"
 
 
 
@@ -17,11 +18,11 @@ const HeroAbt = () => {
           <div className="content">
                 <h1>About Me</h1>
                 <h4>Dad. Husband. Developer. Veteran.</h4>
-                <div>
+                <div className="abt-btns">
                 <Link to="/education"
-                className="btn">Education</Link>
+                className="btn"><FaUserGraduate /></Link>
                 <Link to="/pastlives"
-                className="btn btn-light">Past Lives</Link>
+                className="btn btn-light"><GiOuroboros /></Link>
             </div>
               
                 <div>

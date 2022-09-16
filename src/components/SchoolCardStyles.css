@@ -1,0 +1,72 @@
+
+.school-container {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 2 auto;
+}
+  
+.sch-heading{
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+}
+
+.education-container{
+    --gap: 1rem;
+    --num-cols: 3;
+    --row-height: 30rem;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1rem 2rem 2rem 2rem;
+
+    display: grid;
+    grid-template-columns: repeat(var(--num-cols), 1fr);
+    grid-auto-rows: var(--row-height);
+    gap:var(--gap);
+}
+
+.school-card{
+    background: #1a1919;
+    padding: 1.2rem 1 rem;
+    border: 1px solid #f5f1e3;
+}
+
+.school-card img{
+    width: 100%;
+}
+
+.school-title{
+    color: #f5f1e3;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.sch-details p{
+    padding-bottom: 1 rem;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.sch-btns{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.sch-btns .btn{
+    padding: 0.5rem 1.5rem;
+    position: relative;
+}
+
+@media screen and (max-width: 740px) {
+    .education-container{
+        max-width: 90%;
+        margin: auto;
+
+        grid-template-columns: 1fr;
+    }
+
+}

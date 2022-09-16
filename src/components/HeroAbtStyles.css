@@ -37,6 +37,10 @@
     text-align: center;
 }
 
+.content .abt-btns .btn{
+    font-size: 2rem;
+}
+
 @media screen and (max-width: 640px) {
     .heroabt-img h1{
         font-size: 2rem;
