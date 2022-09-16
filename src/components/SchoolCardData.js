@@ -28,12 +28,12 @@ const SchoolCardData = [
         imgsrc: school4,
         title: "Department of Homeland Security",
         text: "Transportation Security Administration",
-        data: "Mid-Level Leadership Development Program, Foundations of Leadership, Leading People and Managing Operations, Leading Through Change, Behavior Detection and Analysis, National Advisory Council"
+        data: "Mid-Level Leadership Development Program, Leading Effective Workgroups, Foundations of Leadership, Leading People and Managing Operations, Leading Through Change, National Advisory Council"
 
     },
     {
         imgsrc: school5,
-        title: "Verizon WIreless",
+        title: "Verizon Wireless",
         text: "IS/95 Call Processing, Code Division Multiple Access, ",
         data: "UNIX Sun Terminals"
     },

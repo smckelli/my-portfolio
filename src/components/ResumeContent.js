@@ -3,6 +3,7 @@ import "./ResumeContentStyles.css";
 import HeroImg from "../assets/focus.jpg";
 import { FaHandPointDown } from "react-icons/fa";
 import Resume from "../assets/McKellips_Resume.pdf";
+import Resume2 from "../assets/McKellips_Resume2.pdf";
 import { 
     SiMysql, 
     SiSequelize, 
@@ -108,12 +109,18 @@ const ResumeContent = () => {
               style={{ color: "#f5f1e3", marginRight: "1rem", marginLeft: "1rem" }}
             />
           </div>
-        </div>
-        <p id="view-resume">View my technical resume here: </p>
-        <a href={Resume} download className="btn">
-          Click to download
-        </a>
-      </div>
+          </div>
+          <p id="view-resume">View my technical resume here: </p>
+          <a href={Resume} download className="btn">
+            Click to download
+          </a>
+          <p id="view-resume">View my leadership resume here: </p>
+          <a href={Resume2} download className="btn">
+            Click to download
+          </a>
+          </div>
+          <div>
+          </div>
     </div>
   );
 };

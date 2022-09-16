@@ -1,9 +1,10 @@
 import "./FooterStyles.css";
 
-import React from 'react'
+import React from 'react';
 
-import { FaGithub, FaTwitter, FaLinkedin, FaTelegramPlane,
-        FaWhatsapp } from "react-icons/fa"
+import { FaGithub, FaTwitter, FaLinkedin, FaDiscord } from "react-icons/fa";
+
+import { MdEmail } from "react-icons/md";
 
 const Footer = () => {
   return (
@@ -24,13 +25,13 @@ const Footer = () => {
                 size={30} 
                 style={{ color: "#CBD0B9", margineRight: "2rem" }} />
             </a>
-            <a href="https://telegram.org" target="_blank" rel="noreferrer">
-            <FaTelegramPlane 
+            <a href="mailto:starypies22@gmail.com" target="_blank" rel="noreferrer">
+            <MdEmail
                 size={30} 
                 style={{ color: "#CBD0B9", margineRight: "2rem" }} />
             </a>
-            <a href="https://whatsapp.com" target="_blank" rel="noreferrer">
-            <FaWhatsapp
+            <a href="https://discord.com/channels/@me" target="_blank" rel="noreferrer">
+            <FaDiscord
                 size={30} 
                 style={{ color: "#CBD0B9", margineRight: "2rem" }} />
             </a>
