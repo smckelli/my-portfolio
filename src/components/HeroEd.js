@@ -1,8 +1,6 @@
 import "./HeroEdStyles.css";
 
-// import React, { Component } from 'react'
 import HeroImg from "../assets/wisdom.jpg";
-// import { FaArrowDown } from "react-icons/fa";
 import { FaHandPointDown } from "react-icons/fa";
 
 

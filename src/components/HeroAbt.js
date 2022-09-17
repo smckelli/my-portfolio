@@ -1,6 +1,5 @@
 import "./HeroAbtStyles.css";
 
-// import React, { Component } from 'react';
 import HeroImg from "../assets/rest.jpg";
 import { Link } from "react-router-dom";
 import { FaHandPointDown, FaUserGraduate } from "react-icons/fa";

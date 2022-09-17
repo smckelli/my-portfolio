@@ -5,6 +5,7 @@ import React from 'react'
 const Form = () => {
   return (
     <div className="form">
+      {/* The functionality of the form will be in a later build */}
         <form>
             {/* <label>Your Name</label>
             <input type="text"></input>
