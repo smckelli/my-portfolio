@@ -2,7 +2,7 @@ import "./HeroAbtStyles.css";
 
 import HeroImg from "../assets/rest.jpg";
 import { Link } from "react-router-dom";
-import { FaHandPointDown, FaUserGraduate } from "react-icons/fa";
+import { FaChevronDown, FaUserGraduate } from "react-icons/fa";
 import { GiOuroboros } from "react-icons/gi"
 
 
@@ -25,7 +25,7 @@ const HeroAbt = () => {
             </div>
               
                 <div>
-                  <FaHandPointDown
+                  <FaChevronDown
                   size={60}
                   style={{ color: "#f5f1e3", marginRight: "1rem", marginLeft: "1rem", marginTop: "3rem" }}
                   />

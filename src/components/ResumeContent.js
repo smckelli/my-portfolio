@@ -1,7 +1,7 @@
 import React from "react";
 import "./ResumeContentStyles.css";
 import HeroImg from "../assets/focus.jpg";
-import { FaHandPointDown } from "react-icons/fa";
+import { FaChevronDown} from "react-icons/fa";
 import Resume from "../assets/McKellips_Resume.pdf";
 import Resume2 from "../assets/McKellips_Resume2.pdf";
 import { 
@@ -36,7 +36,7 @@ const ResumeContent = () => {
                   {/* <FaArrowDown size={30} style={{ color: "#fff" }}/> */}
                 
                   <div>
-                    <FaHandPointDown
+                    <FaChevronDown
                     size={60}
                     style={{ color: "#f5f1e3", marginRight: "1rem", marginLeft: "1rem" }}
                     />

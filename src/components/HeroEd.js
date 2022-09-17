@@ -1,7 +1,7 @@
 import "./HeroEdStyles.css";
 
 import HeroImg from "../assets/wisdom.jpg";
-import { FaHandPointDown } from "react-icons/fa";
+import { FaChevronDown } from "react-icons/fa";
 
 
 const HeroEd = () => {
@@ -17,7 +17,7 @@ const HeroEd = () => {
                 {/* <FaArrowDown size={30} style={{ color: "#fff" }}/> */}
               
                 <div>
-                  <FaHandPointDown
+                  <FaChevronDown
                   size={60}
                   style={{ color: "#f5f1e3", marginRight: "1rem", marginLeft: "1rem" }}
                   />
