@@ -47,8 +47,8 @@
     margin-bottom: 50px;
 }
 
-.content .hero-btns .btn{
-    margin: 1rem 1.6rem;
+.content .btn{
+    margin: 1rem 0.6rem;
 }
 
 @media screen and (max-width: 820px) {
@@ -63,5 +63,11 @@
     }
     .hero .content h4{
         font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .heropro-img h1{
+        font-size: 2rem;
     }
 }
