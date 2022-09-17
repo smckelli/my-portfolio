@@ -1,0 +1,22 @@
+label{
+    color: #f5f1e3;
+    margin-bottom: 0.5rem;
+}
+
+.past{
+    display: flex;
+    /* flex-direction: column; */
+    padding: 3rem 1rem;
+    margin: auto;
+    max-width: 1500px;
+    align-items: center;
+}
+
+h4{
+    /* text-decoration: underline; */
+    font-size: 4rem;
+}
+
+a{
+    font-size: 3rem;
+}
