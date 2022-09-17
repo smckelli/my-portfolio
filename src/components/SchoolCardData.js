@@ -10,7 +10,7 @@ const SchoolCardData = [
         imgsrc: school1,
         title: "The University of Wisconsin",
         text: "Full Stack Web Developer Certification",
-        data: "MERN stack, React, MongoDB, Git, VS Code, HTML5, CSS3, JavaScript, Handlebars, jQuery, JSON, APIs, Express.js, Node.js, Heroku, Insomnia, Apollo GraphQL, Sequilize, MySQL, NoSQL, MVC, PWA---Java, AWS, C#, Python",
+        data: "MERN stack, React, MongoDB, Git, VS Code, HTML5, CSS3, JavaScript, Handlebars, jQuery, JSON, APIs, Express.js, Node.js, Heroku, Insomnia, Apollo GraphQL, Sequilize, MySQL, NoSQL, MVC, PWA",
     },
     {
         imgsrc: school2,

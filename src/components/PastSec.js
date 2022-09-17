@@ -24,7 +24,7 @@ const Form = () => {
             <p>Start-up Cellular Phone Company</p>
             <p>RF Systems Performance Technician/ Engineer</p>
             <p>Code Division Multiple Access</p>
-            <p>3G LTE. Antenna Coverage Optimization</p>
+            <p>Antenna Coverage Optimization</p>
             <p></p>
             <p></p>
             <h4>Homeland Security</h4>

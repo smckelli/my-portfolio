@@ -11,4 +11,13 @@
 
 .resume-container p, h1{
     padding: 5rem 0;
+    /* font-size: 2rem; */
+}
+
+#view-resume{
+    font-size: 3rem;
+}
+
+#resume-head{
+    font-size: 3.5rem;
 }

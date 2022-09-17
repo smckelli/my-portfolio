@@ -43,7 +43,7 @@ const ResumeContent = () => {
                   </div>
         </div>
       <div className="resume-container">
-        <h1>Technologies</h1>
+        <h1 id="resume-head">Technologies</h1>
         <div className="icons">
           <div>
             <FaGithub
