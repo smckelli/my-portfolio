@@ -17,7 +17,7 @@ const HeroAbt = () => {
           </div>
           <div className="content">
                 <h1>About Me</h1>
-                <h4>Dad. Husband. Developer. Veteran.</h4>
+                <h4>Dad. Husband. Developer. Leader. Veteran.</h4>
                 <div className="abt-btns">
                 <Link to="/education"
                 className="btn"><FaUserGraduate /></Link>

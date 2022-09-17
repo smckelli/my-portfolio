@@ -18,8 +18,9 @@ const Form = () => {
             <h4>Basement Headquarters</h4>
             <p>Sun Prairie, Wisconsin</p>
             <p></p>
-            <h4>Branch Office</h4>
+            <h4>Branch Offices</h4>
             <p>Cisownica, Poland</p>
+            <p>Wisla-Czarne, Poland</p>
             <p></p>
             <h4>Email</h4>
             <a href="mailto:starypies22@gmail.com">starypies22@gmail.com</a>

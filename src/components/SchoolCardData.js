@@ -35,7 +35,7 @@ const SchoolCardData = [
         imgsrc: school5,
         title: "Verizon Wireless",
         text: "IS/95 Call Processing, Code Division Multiple Access, ",
-        data: "UNIX Sun Terminals"
+        data: "Visual Basic, UNIX Sun Terminals"
     },
     {
         imgsrc: school6,
