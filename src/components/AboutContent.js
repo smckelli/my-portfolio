@@ -2,7 +2,7 @@ import "./AboutContentStyles.css";
 
 import React from 'react';
 import { Link } from "react-router-dom";
-import familysunflowers from "../assets/familysunflowers.jpg";
+import mcsilhouette from "../assets/McSilouhette.jpg";
 
 const AboutContent = () => {
   return (
@@ -21,7 +21,7 @@ const AboutContent = () => {
         <div className="right">
             <div className="img-container">
                 <div className="img-stack bottom">
-                    <img src={familysunflowers}
+                    <img src={mcsilhouette}
                     className="img" alt="family photo"/>
                 </div>
             </div>
