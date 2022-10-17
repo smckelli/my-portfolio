@@ -19,9 +19,9 @@ const HeroAbt = () => {
                 <h4>Dad. Husband. Developer. Leader. Veteran.</h4>
                 <div className="abt-btns">
                 <Link to="/education"
-                className="btn"><FaUserGraduate /></Link>
+                className="hero-abt-btn"><FaUserGraduate /></Link>
                 <Link to="/pastlives"
-                className="btn btn-light"><GiOuroboros /></Link>
+                className="hero-abt-btn btn-light"><GiOuroboros /></Link>
             </div>
               
                 <div>

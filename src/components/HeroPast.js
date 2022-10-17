@@ -1,4 +1,4 @@
-import "./HeroEdStyles.css";
+import "./HeroPastStyles.css";
 
 import HeroImg from "../assets/meditation.jpg";
 import { FaChevronDown } from "react-icons/fa";

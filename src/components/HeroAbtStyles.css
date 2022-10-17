@@ -39,6 +39,11 @@
 
 .content .abt-btns .btn{
     font-size: 2rem;
+    margin-right: 30px;
+}
+
+.hero-abt-btn{
+    margin-right: 5rem;
 }
 
 @media screen and (max-width: 640px) {
