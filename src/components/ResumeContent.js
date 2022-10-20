@@ -13,6 +13,7 @@ import {
     SiApollographql,
     SiHeroku,
     SiHandlebarsdotjs,
+    SiVercel,
  } from "react-icons/si";
 import {
   FaGithub,
@@ -21,6 +22,7 @@ import {
   FaJsSquare,
   FaBootstrap,
   FaNodeJs,
+  FaPython,
 } from "react-icons/fa";
 
 const ResumeContent = () => {
@@ -105,6 +107,14 @@ const ResumeContent = () => {
               style={{ color: "#f5f1e3", marginRight: "1rem", marginLeft: "1rem" }}
             />
             <SiHandlebarsdotjs
+              size={60}
+              style={{ color: "#f5f1e3", marginRight: "1rem", marginLeft: "1rem" }}
+            />
+            <FaPython
+              size={60}
+              style={{ color: "#f5f1e3", marginRight: "1rem", marginLeft: "1rem" }}
+            />
+            <SiVercel
               size={60}
               style={{ color: "#f5f1e3", marginRight: "1rem", marginLeft: "1rem" }}
             />
