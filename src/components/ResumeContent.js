@@ -1,6 +1,9 @@
 import React from "react";
 import "./ResumeContentStyles.css";
 import HeroImg from "../assets/focus.jpg";
+import ResumeImg from "../assets/Resume-img.jpg";
+import ResumeImg2 from "../assets/Resume2-img.jpg";
+import ResumeImg3 from "../assets/Resume2-2-img.jpg";
 import { FaChevronDown} from "react-icons/fa";
 import Resume from "../assets/McKellips_Resume.pdf";
 import Resume2 from "../assets/McKellips_Resume2.pdf";
@@ -121,10 +124,13 @@ const ResumeContent = () => {
           </div>
           </div>
           <p id="view-resume">View my technical resume here: </p>
+          <img src={ResumeImg} alt= "Mckellips Technical Resume"/><br></br>
           <a href={Resume} download className="btn">
             Click to download
           </a>
           <p id="view-resume">View my leadership resume here: </p>
+          <img src={ResumeImg2} alt= "Mckellips Leadership Resume"/><br></br>
+          <img src={ResumeImg3} alt= "Mckellips Leadership Resume"/><br></br>
           <a href={Resume2} download className="btn">
             Click to download
           </a>
